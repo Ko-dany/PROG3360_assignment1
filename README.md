@@ -1,1 +1,4 @@
-# -PROG3360_assignment1
+# PROG3360 Assignment 1
+- Dahyun (Dany) Ko
+- Erica Goodman 
+- Gabriel Siewert
