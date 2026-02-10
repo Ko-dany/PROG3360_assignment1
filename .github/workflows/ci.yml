@@ -23,6 +23,11 @@ jobs:
 
       - name: Run unit tests
         run: mvn -B test
+        working-directory: product-service
+
+      - name: Run unit tests
+        run: mvn -B test
+        working-directory: order-service
 
       - name: Upload test reports as artifacts
         if: always()
@@ -30,9 +35,12 @@ jobs:
         with:
           name: test-reports
           path: |
-            **/target/surefire-reports/**
-            **/target/failsafe-reports/**
+            product-service/target/surefire-reports/**
+            product-service/target/failsafe-reports/**
+            order-service/target/surefire-reports/**
+            order-service/target/failsafe-reports/**
           if-no-files-found: warn
+
   docker-build:
     name: Docker Build
     runs-on: ubuntu-latest
