@@ -1,4 +1,6 @@
 # PROG3360 Assignment 1
+
+Video Link: https://drive.google.com/file/d/1t3-EUmfrcVsFupVd3nJq5C3w89hlZ0so/view?usp=drive_link
 ## Participants
 Dahyun (Dany) Ko (8818957)
 Erica Goodman (8766134)
